@@ -1,0 +1,235 @@
+body
+    {background-color: #0a00024a;
+     margin: 50px;
+     padding: 50px;}
+
+html{
+    background: url(bg1.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; ;
+}
+
+h1
+  {color: #a97100;
+   font-weight: bolder;
+   font-size: 60px;
+   font-family: 'Merienda', cursive;
+   text-align: center;
+   text-decoration: overline;
+   text-shadow: 2px 2px black;}
+
+h2
+  {color: #a97100;
+   font-family: 'Merienda', cursive;
+   font-size: 40px;
+   text-decoration: none;}
+
+h4
+  {color: #b5afa9;
+   font-size: 25px;
+   font-family: 'Merienda', cursive;
+   word-spacing: 25px;}
+
+#salt {font-style: oblique;}
+
+p
+ {font-size: 28px;
+  font-family:'Crimson Pro'   ;
+  font-style: normal;
+  text-decoration: inherit;
+  line-height: 60px;
+  color: #b5afa9;}
+
+#love 
+      {line-height: 40px;
+       text-indent: 0px;
+       font-family: 'Merienda', cursive;
+       color: #b5afa9;
+       text-align: justify;
+       font-weight: 200;
+       font-size: 25px;}
+
+a:link
+ {font-weight: 200px;
+  font-family: Merienda;
+  font-size: 28px;
+  color:#b7906b}
+a:visited {color:#443722fd;}
+
+ul{list-style-type:disc;
+   font-family: 'Merienda', cursive;
+   color: #b5afa9;
+   text-align: justify;
+   font-weight: 200;
+   font-size: 25px;}
+
+#work
+     {font-family: 'Merienda', cursive;
+      font-size: 20px;
+      font-weight: 100px;
+      color: #b5afa9;}
+     
+
+h3
+  {color: #b5afa9;
+   font-size: 25px;
+   font-family: 'Merienda',cursive;
+   font-weight: 100;}
+
+table
+     { width: 1000px;
+       height:250px;
+       border-style:initial;}
+
+th{text-align: center;
+   color: #a97100;
+   font-size: 25px;
+   font-weight: bold;
+   font-family: 'Merienda';}
+
+td{font-size: 20px;
+   color: #b5afa9;
+   text-align: center;
+   font-weight: 100;
+   font-family: 'Merienda';}
+
+#rest{color: #b5afa9;
+   font-family: 'Merienda', cursive;
+   font-weight: 100;
+   font-size: 25px;}
+
+#fist{color: #b5afa9;
+      font-family: 'Merienda', cursive;
+      font-weight: 100;
+      font-size: 20px;}
+
+#salt{text-align: center;
+      text-decoration: none;
+      color: #969393;}
+
+/* #Ach{color: #b5afa9;
+      font-family: 'Merienda', cursive;
+      font-weight: 100;
+      font-size: 25px;} */
+
+.center { display:block;
+          margin-left: auto;
+          margin-right: auto;
+          }
+
+
+.line1::before {
+         content: "";
+         position: absolute;
+         top: 9;
+         left: 0;
+         width: 50%;
+         height: 0.05%;
+         background: rgb(212, 197, 197);
+         animation: animate 10s linear infinite;         }
+      
+         @keyframes animate {
+               0%   { left: 7%;}
+               50%  {left: 43%;}
+               100% { left: 7%;}}
+
+
+.line2::before {
+         content: "";
+         position: absolute;
+         top: 9;
+         left: 0;
+         width: 50%;
+         height: 0.05%;
+         background: rgb(212, 197, 197);
+         animation: animate 10s linear infinite;  }
+      
+         @keyframes animate {
+               0%   { left: 7%;}
+               50%  {left: 43%;}
+               100% { left: 7%;}}
+
+.line3::before {
+         content: "";
+         position: absolute;
+         top: 9;
+         left: 0;
+         width: 50%;
+         height: 0.05%;
+         background: rgb(212, 197, 197);
+         animation: animate 10s linear infinite;         }
+      
+         @keyframes animate {
+               0%   { left: 7%;}
+               50%  {left: 43%;}
+               100% { left: 7%;}}
+
+.line4::before {
+         content: "";
+         position: absolute;
+         top: 9;
+         left: 0;
+         width: 50%;
+         height: 0.05%;
+         background: rgb(212, 197, 197);
+         animation: animate 10s linear infinite;         }
+      
+         @keyframes animate {
+               0%   { left: 7%;}
+               50%  {left: 43%;}
+               100% { left: 7%;}}
+
+.line5::before {
+         content: "";
+         position: absolute;
+         top: 9;
+         left: 0;
+         width: 50%;
+         height: 0.05%;
+         background: rgb(212, 197, 197);
+         animation: animate 10s linear infinite;         }
+      
+         @keyframes animate {
+               0%   { left: 7%;}
+               50%  {left: 43%;}
+               100% { left: 7%;}}
+
+.line6::before {
+         content: "";
+         position: absolute;
+         top: 9;
+         left: 0;
+         width: 50%;
+         height: 0.05%;
+         background: rgb(212, 197, 197);
+         animation: animate 10s linear infinite;         }
+      
+         @keyframes animate {
+               0%   { left: 7%;}
+               50%  {left: 43%;}
+               100% { left: 7%;}}
+
+
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .05em solid rgb(0, 0, 0); /* The typwriter cursor */
+  white-space:nowrap;  /*Keeps the content on a single line */
+  margin:0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .05em; /* Adjust as needed */
+  width:0;
+  animation: 
+    typing 4s forwards;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 30% }
+}
+
+
+
+
+   
